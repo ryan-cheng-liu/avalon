@@ -1,0 +1,42 @@
+.text {
+    font-size: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --playerFrameWidth: 150px;
+    --lobbyFrameBorderRadius: 5px;
+}
+
+html, body, #app {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+}
+
+#app > * {
+    flex: 1;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 80px 0 5px 0;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: rgb(219,219,219);
+}
+    
